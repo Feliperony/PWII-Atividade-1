@@ -11,7 +11,7 @@ var Piscina = /** @class */ (function () {
     };
     Piscina.prototype.area = function () {
         Number;
-        return ((this.raio() * this.raio()) * 3.14);
+        return ((this.raio() * this.raio()) * 3.14159265359);
     };
     Piscina.prototype.custoTotal = function () {
         Number;

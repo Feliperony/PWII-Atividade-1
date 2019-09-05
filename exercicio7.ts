@@ -6,9 +6,10 @@ export class Piscina
         return (this.diametro /2)
     }
     area(){Number
-        return ((this.raio() * this.raio()) * 3.14 )
+        return ((this.raio() * this.raio()) * 3.14159265359 )
     }
     custoTotal(){Number
         return (this.area() * this.custoconstrucao)
     }
+    
 }
