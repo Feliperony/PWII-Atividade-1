@@ -21,7 +21,7 @@ let area = (largura:number,comprimento:number) => largura * comprimento
 
 console.log(`A Àrea é: ${area(largura,comprimento)}`)
 
-//exercicio6export
+//exercicio6
 
 export class Cubo
 {
@@ -31,10 +31,3 @@ export class Cubo
     return Math.pow(this.numerox,3)
     }
 }
-
-//exercicio6import
-
-import {Cubo} from "./exercicio6export"
-
-let Topinho = new Cubo(8)
-console.log(Topinho.aocubo())
